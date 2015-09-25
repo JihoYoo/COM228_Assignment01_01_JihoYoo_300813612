@@ -21,9 +21,8 @@ patient =  new Patient();
 	patient.setCity(pCity);
 	patient.setProvince(pProvince);
 	patient.setPostalCode(pPostalCode);
-	patient.getPatientID();
+	patient.getPatientInfo();
 	
-	System.out.printf("%s,%s,%s,%s,%s,%s", patient.getPatientID(),patient.getFirstName(),patient.getLastName(),patient.getCity(),patient.getProvince(),patient.getPostalCode());
 	}
 
 }
